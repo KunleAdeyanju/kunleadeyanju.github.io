@@ -8,7 +8,7 @@ Welcome to my data analysis portfolio! I'm passionate about transforming raw dat
 
 Feel free to explore my portfolio for a closer look at my projects, and don't hesitate to connect with me on LinkedIn for a more in-depth view of my professional journey. I'm confident that my analytical skills make me an ideal candidate for any data analyst role. Looking forward to potential collaborations!
 
-https://www.linkedin.com/in/kunleadeyanju
+[LinkedIn Page](https://www.linkedin.com/in/kunleadeyanju)
 
 
 
