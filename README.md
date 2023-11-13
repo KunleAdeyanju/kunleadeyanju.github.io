@@ -1,5 +1,17 @@
 # Kunle Adeyanju's Data Analysis Portfolio
 
+Welcome to my data analysis portfolio! I'm passionate about transforming raw data into actionable insights, and I bring a data-driven mindset to organize, analyze, and interpret data for business stakeholders. Here are some key points about my background:
+
+* Technical Proficiency: I am most fond of using Python and SQL, also I am adept at leveraging R, Excel, and Tableau to support and advance businesses through data analysis.
+* Project Expertise: My portfolio showcases hands-on experience in building writing insightful reports, and effectively presenting analysis results to diverse audiences.
+* Problem-Solving Skills: I take pride in my critical thinking abilities, which have proven essential in navigating the complexities of data-driven decision-making.
+
+Feel free to explore my portfolio for a closer look at my projects, and don't hesitate to connect with me on LinkedIn for a more in-depth view of my professional journey. I'm confident that my analytical skills make me an ideal candidate for any data analyst role. Looking forward to potential collaborations!
+
+https://www.linkedin.com/in/kunleadeyanju
+
+
+
 ## [Project 1: Covid 19 Analysis](https://github.com/KunleAdeyanju/Covid19Analysis) 
 
 * Python based analysis project
