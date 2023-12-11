@@ -26,6 +26,6 @@ Feel free to explore my portfolio for a closer look at my projects, and don't he
 * Highlights and displays understanding of SQL code
 * Worked with a partner, my role was to 
     * Develop database for ezpass like auto-charge highway toll system
-    * Write queries to add and remove elements from the database
+    * Write queries to add, remove, and update elements from the database
     * Write queries to pull reports
 
