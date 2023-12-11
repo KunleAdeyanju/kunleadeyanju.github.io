@@ -19,3 +19,13 @@ Feel free to explore my portfolio for a closer look at my projects, and don't he
 * Data was provided through the course
 * Pandas and Seaborn libraries explored and highlighted
 * Uncomplete 
+
+## [Project 2: Toll Road Database](https://github.com/KunleAdeyanju/TollRoadDatabase) 
+
+* SQL based project
+* Highlights and displays understanding of SQL code
+* Worked with a partner, my role was to 
+    * Develop database for ezpass like auto-charge highway toll system
+    * Write queries to add and remove elements from the database
+    * Write queries to pull reports
+
