@@ -11,6 +11,9 @@ Feel free to explore my portfolio for a closer look at my projects, and don't he
 [LinkedIn Page](https://www.linkedin.com/in/kunleadeyanju)
 
 
+### [Tableau Profile](https://public.tableau.com/app/profile/adekunle.adeyanju/vizzes)
+* Take a look at my Vizzes
+
 
 ## [Project 1: Covid 19 Analysis](https://github.com/KunleAdeyanju/Covid19Analysis) 
 
