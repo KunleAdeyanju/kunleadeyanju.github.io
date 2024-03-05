@@ -21,7 +21,7 @@ Feel free to explore my portfolio for a closer look at my projects, and don't he
 * Inspired by the Coursera class, [Covid19 Data Analysis using python](https://www.coursera.org/projects/covid19-data-analysis-using-python)
 * Data was provided through the course
 * Pandas and Seaborn libraries explored and highlighted
-* Uncomplete 
+* I explore the relation between the infection rate of Covid 19 and various life factors
 
 ## [Project 2: Toll Road Database](https://github.com/KunleAdeyanju/TollRoadDatabase) 
 
