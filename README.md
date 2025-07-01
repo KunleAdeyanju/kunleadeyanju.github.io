@@ -1,4 +1,6 @@
-<h1 style="text-align: center;">Kunle Adeyanju's Data Analysis Portfolio</h1>
+
+
+<h1 style="text-align: center;">Kunle Adeyanju's Portfolio</h1>
 <hr style="width: 50%; margin: auto;">
 
 <table style="vertical-align: middle;">
@@ -8,10 +10,11 @@
     </td>
     <td style="padding-left: 20px;">
       <p style="font-size: 23px; line-height: 1.6;">
+        💼 <strong>Data Engineer</strong><br>
         📧 <a href="mailto:aoadeyanju22@gmail.com">aoadeyanju22@gmail.com</a><br>
         📄 <a href="https://drive.google.com/file/d/1IGgx5ltA9NuFSunKAdMIkwSBXyfyb7Y6/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a><br>
-        💼 <a href="https://www.linkedin.com/in/kunleadeyanju" target="_blank">LinkedIn</a>
-        🧠 <a href="https://github.com/kunleadeyanju" target="_blank">GitHub</a>
+        💼 <a href="https://www.linkedin.com/in/kunleadeyanju" target="_blank">LinkedIn</a><br>
+        🧠 <a href="https://github.com/kunleadeyanju" target="_blank">GitHub</a><br>
         📍 <span style="color: #555;">Located in Wilmington, DE</span>
       </p>
     </td>
