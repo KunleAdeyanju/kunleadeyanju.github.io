@@ -9,7 +9,7 @@
       <p style="font-size: 23px; line-height: 1.6;">
         📧 <a href="mailto:aoadeyanju22@gmail.com">aoadeyanju22@gmail.com</a><br>
         📄 <a href="https://drive.google.com/file/d/1IGgx5ltA9NuFSunKAdMIkwSBXyfyb7Y6/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a><br>
-        💼 <a href="https://www.linkedin.com/in/kunleadeyanju" target="_blank">LinkedIn</a> |
+        💼 <a href="https://www.linkedin.com/in/kunleadeyanju" target="_blank">LinkedIn</a>
         🧠 <a href="https://github.com/kunleadeyanju" target="_blank">GitHub</a>
       </p>
     </td>
