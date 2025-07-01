@@ -8,10 +8,11 @@
     <td>
       <h2>Kunle Adeyanju</h2>
       <p>
-        📧 <a href="mailto:aoadeyanju22@gmail.com">your.email@example.com</a><br>
-        🔗 <a href="https://your-portfolio-link.com">your-portfolio-link.com</a><br>
-        💼 <a href="https://www.linkedin.com/in/kunleadeyanu">LinkedIn</a> |
+        📧 <a href="mailto:aoadeyanju22@gmail.com">aoadeyanju22@gmail.com.com</a><br>
+        📄<a href = "https://drive.google.com/file/d/1IGgx5ltA9NuFSunKAdMIkwSBXyfyb7Y6/view?usp=sharing">Resume</a><br>
+        💼 <a href="https://www.linkedin.com/in/kunleadeyanju">LinkedIn</a> |
         🧠 <a href="https://github.com/kunleadeyanju">GitHub</a>
+
       </p>
     </td>
   </tr>
