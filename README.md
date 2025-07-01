@@ -1,5 +1,22 @@
 # Kunle Adeyanju's Data Analysis Portfolio
 
+<table>
+  <tr>
+    <td width="140px">
+      <img src="./resources/image.jpg" width="120px" style="border-radius: 50%; border: 2px solid #ccc;" />
+    </td>
+    <td>
+      <h2>Kunle Adeyanju</h2>
+      <p>
+        📧 <a href="mailto:aoadeyanju22@gmail.com">your.email@example.com</a><br>
+        🔗 <a href="https://your-portfolio-link.com">your-portfolio-link.com</a><br>
+        💼 <a href="https://www.linkedin.com/in/kunleadeyanu">LinkedIn</a> |
+        🧠 <a href="https://github.com/kunleadeyanju">GitHub</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
 Welcome to my data analysis portfolio! I'm passionate about transforming raw data into actionable insights, and I bring a data-driven mindset to organize, analyze, and interpret data for business stakeholders. Here are some key points about my background:
 
 * Technical Proficiency: I am most fond of using Python and SQL, also I am adept at leveraging R, Excel, and Tableau to support and advance businesses through data analysis.
