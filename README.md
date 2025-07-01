@@ -1,4 +1,5 @@
-# Kunle Adeyanju's Data Analysis Portfolio
+<h1 style="text-align: center;">Kunle Adeyanju's Data Analysis Portfolio</h1>
+<hr style="width: 50%; margin: auto;">
 
 <table style="vertical-align: middle;">
   <tr>
@@ -11,6 +12,7 @@
         📄 <a href="https://drive.google.com/file/d/1IGgx5ltA9NuFSunKAdMIkwSBXyfyb7Y6/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a><br>
         💼 <a href="https://www.linkedin.com/in/kunleadeyanju" target="_blank">LinkedIn</a>
         🧠 <a href="https://github.com/kunleadeyanju" target="_blank">GitHub</a>
+        📍 <span style="color: #555;">Located in Wilmington, DE</span>
       </p>
     </td>
   </tr>
