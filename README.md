@@ -5,7 +5,7 @@
 
 <table style="vertical-align: middle;">
   <tr>
-    <td width="200px">
+    <td width="220px">
       <img src="./resources/image.jpg" width="180px" style="border-radius: 50%; border: 3px solid #ccc;" />
     </td>
     <td style="padding-left: 20px;">
