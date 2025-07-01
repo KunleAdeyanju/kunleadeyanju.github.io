@@ -2,13 +2,12 @@
 
 <table>
   <tr>
-    <td width="140px">
-      <img src="./resources/image.jpg" width="120px" style="border-radius: 50%; border: 2px solid #ccc;" />
+    <td width="200px">
+      <img src="./resources/image.jpg" width="180px" style="border-radius: 50%; border: 3px solid #ccc;" />
     </td>
     <td>
-      <h2>Kunle Adeyanju</h2>
-      <p>
-        📧 <a href="mailto:aoadeyanju22@gmail.com">aoadeyanju22@gmail.com.com</a><br>
+      <p style = "font-size: 18px;">
+        📧 <a href="mailto:aoadeyanju22@gmail.com">aoadeyanju22@gmail.com</a><br>
         📄<a href = "https://drive.google.com/file/d/1IGgx5ltA9NuFSunKAdMIkwSBXyfyb7Y6/view?usp=sharing">Resume</a><br>
         💼 <a href="https://www.linkedin.com/in/kunleadeyanju">LinkedIn</a> |
         🧠 <a href="https://github.com/kunleadeyanju">GitHub</a>
