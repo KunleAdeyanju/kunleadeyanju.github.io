@@ -1,17 +1,16 @@
 # Kunle Adeyanju's Data Analysis Portfolio
 
-<table>
+<table style="vertical-align: middle;">
   <tr>
     <td width="200px">
       <img src="./resources/image.jpg" width="180px" style="border-radius: 50%; border: 3px solid #ccc;" />
     </td>
-    <td>
-      <p style = "font-size: 18px;">
+    <td style="padding-left: 20px;">
+      <p style="font-size: 23px; line-height: 1.6;">
         📧 <a href="mailto:aoadeyanju22@gmail.com">aoadeyanju22@gmail.com</a><br>
-        📄<a href = "https://drive.google.com/file/d/1IGgx5ltA9NuFSunKAdMIkwSBXyfyb7Y6/view?usp=sharing">Resume</a><br>
-        💼 <a href="https://www.linkedin.com/in/kunleadeyanju">LinkedIn</a> |
-        🧠 <a href="https://github.com/kunleadeyanju">GitHub</a>
-
+        📄 <a href="https://drive.google.com/file/d/1IGgx5ltA9NuFSunKAdMIkwSBXyfyb7Y6/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a><br>
+        💼 <a href="https://www.linkedin.com/in/kunleadeyanju" target="_blank">LinkedIn</a> |
+        🧠 <a href="https://github.com/kunleadeyanju" target="_blank">GitHub</a>
       </p>
     </td>
   </tr>
@@ -24,8 +23,6 @@ Welcome to my data analysis portfolio! I'm passionate about transforming raw dat
 * Problem-Solving Skills: I take pride in my critical thinking abilities, which have proven essential in navigating the complexities of data-driven decision-making.
 
 Feel free to explore my portfolio for a closer look at my projects, and don't hesitate to connect with me on LinkedIn for a more in-depth view of my professional journey. I'm confident that my analytical skills make me an ideal candidate for any data analyst role. Looking forward to potential collaborations!
-
-[LinkedIn Page](https://www.linkedin.com/in/kunleadeyanju)
 
 
 #### [Tableau Profile](https://public.tableau.com/app/profile/adekunle.adeyanju/vizzes)
