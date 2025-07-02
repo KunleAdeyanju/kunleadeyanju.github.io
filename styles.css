@@ -130,6 +130,19 @@ body {
     background-color: white;
   }
   
+  .status {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .status.completed {
+    color: green;
+  }
+  
+  .status.in-progress {
+    color: orange;
+  }
+  
   /* Certificates */
   .cert-btn {
     padding: 10px 20px;
