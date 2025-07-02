@@ -3,3 +3,5 @@
 I'm excited to use GitHub pages to share what I've worked on and what I'll be working on.
 
 More things to come
+
+checking to see if this updates now 
