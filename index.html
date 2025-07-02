@@ -85,8 +85,38 @@
   </section>
 
   <section class="certificates" id="certificates">
-    <h2>Certificates</h2>
+    <h2>Education & Certificates</h2>
     <!-- Certificate buttons and viewers here -->
+    <div style="text-align: center; margin-top: 20px;">
+        <button id="bsButton" onclick="togglePDF('bsViewer', 'bsButton', '🎓', 'Preview Diploma', 'Hide Diploma')" class="cert-btn">
+          🎓 Preview Diploma
+        </button>
+      </div>
+      <div id="bsViewer" class="pdf-viewer">
+        <iframe src="./resources/diploma.pdf"></iframe>
+        <p><a href="./resources/diploma.pdf" target="_blank">Open Diploma in a new tab</a></p>
+      </div>
+    
+      <div style="text-align: center; margin-top: 40px;">
+        <button id="zipButton" onclick="togglePDF('zipViewer', 'zipButton', '🧾', 'Preview Certificate', 'Hide Certificate')" class="cert-btn">
+          🧾 Preview Certificate
+        </button>
+      </div>
+      <div id="zipViewer" class="pdf-viewer">
+        <iframe src="./resources/zipcode_certificate.pdf"></iframe>
+        <p><a href="./resources/zipcode_certificate.pdf" target="_blank">Open Certificate in a new tab</a></p>
+      </div>
+    
+      <div style="text-align: center; margin-top: 40px;">
+        <button id="gaButton" onclick="togglePDF('gaViewer', 'gaButton', '📈', 'Preview Certificate', 'Hide Certificate')" class="cert-btn">
+          📈 Preview Certificate
+        </button>
+      </div>
+      <div id="gaViewer" class="pdf-viewer">
+        <iframe src="./resources/google_analytics_certificate.pdf"></iframe>
+        <p><a href="./resources/google_analytics_certificate.pdf" target="_blank">Open Certificate in a new tab</a></p>
+      </div>
+    </section>
   </section>
 
   <footer class="footer" id="contact">
