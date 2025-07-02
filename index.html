@@ -4,209 +4,86 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Kunle Adeyanju - Data Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px auto;
-      max-width: 800px;
-      line-height: 1.6;
-      padding: 0 20px;
-      color: #333;
-    }
-    h1 {
-      text-align: center;
-      font-size: 2.5em;
-    }
-    hr {
-      width: 60%;
-      margin: 20px auto;
-      border: 1px solid #eee;
-    }
-    .profile {
-      display: flex;
-      align-items: center;
-      margin-top: 40px;
-    }
-    .profile img {
-      border-radius: 50%;
-      border: 3px solid #ccc;
-      width: 220px;
-      height: 220px;
-      object-fit: cover;
-    }
-    .info {
-      margin-left: 30px;
-      font-size: 18px;
-    }
-    .info a {
-      color: #0366d6;
-      text-decoration: none;
-    }
-    .info a:hover {
-      text-decoration: underline;
-    }
-    .location {
-      margin-top: 10px;
-      color: #555;
-    }
-    .cert-btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 6px;
-    background-color: #0366d6;
-    color: white;
-    border: none;
-    transition: background-color 0.3s ease;
-  }
-  .cert-btn:hover {
-    background-color: #024b9d;
-  }
-  .pdf-viewer {
-    max-width: 800px;
-    margin: 0 auto;
-    margin-top: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease, padding 0.3s ease;
-    max-height: 0;
-    padding: 0;
-    text-align: center;
-  }
-  .pdf-viewer iframe {
-    width: 100%;
-    height: 500px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-  }
-  .pdf-viewer.expanded {
-    max-height: 1000px;
-    padding-top: 20px;
-  }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-brand">Kunle Adeyanju</div>
+    <button class="nav-toggle" id="navToggle">☰</button>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#summary">Summary</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <h1>Kunle Adeyanju's Portfolio</h1>
-  <hr />
+  <header class="page-header">
+    <h1>Kunle Adeyanju's Portfolio</h1>
+  </header>
 
-  <div class="profile">
+  <section class="profile">
     <img src="./resources/image.jpg" alt="Kunle's profile picture">
     <div class="info">
-      <p style="font-size: 18px; line-height: 1.6; margin: 0;">
+      <p>
         💼 <strong>Data Engineer</strong><br>
         📧 <a href="mailto:aoadeyanju22@gmail.com">aoadeyanju22@gmail.com</a><br>
         📄 <a href="https://drive.google.com/file/d/1IGgx5ltA9NuFSunKAdMIkwSBXyfyb7Y6/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a><br>
-        🔗 <a href="https://www.linkedin.com/in/kunleadeyanju" target="_blank">LinkedIn</a> |
-        🧠 <a href="https://github.com/kunleadeyanju" target="_blank">GitHub</a><br>
-        📍 <span style="color: #555;">Located in Wilmington, DE</span>
+        🔗 <a href="https://www.linkedin.com/in/kunleadeyanju" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+        🧐 <a href="https://github.com/kunleadeyanju" target="_blank" rel="noopener noreferrer">GitHub</a><br>
+        📍 Located in Wilmington, DE
       </p>
     </div>
-  </div>
+  </section>
 
-  <section style="margin-top: 50px; max-width: 700px; margin-left: auto; margin-right: auto;">
-    <h2 style="text-align: center; font-size: 2em; margin-bottom: 15px;">Professional Summary</h2>
-    <p style="font-size: 18px; line-height: 1.6; color: #444;">
+  <section class="summary" id="summary">
+    <h2>Professional Summary</h2>
+    <p>
       I’m a recent graduate of the 
       <a href="https://zipcodewilmington.com/" target="_blank" rel="noopener noreferrer">ZIP Code Wilmington</a> 
       Data Engineering cohort — a nationally recognized, highly selective program that accepts fewer than 12% of applicants.
     </p>
-    <p style="font-size: 18px; line-height: 1.6; color: #444;">
+    <p>
       I hold a degree in Applied Mathematics from West Chester University of Pennsylvania. Before entering the data space, I worked as a Warehouse Manager at DSW and most recently as an Education Co-Director at Mathnasium.
     </p>
-    <p style="font-size: 18px; line-height: 1.6; color: #444;">
+    <p>
       Even before formally entering the field, analyzing data and communicating insights to diverse stakeholders was central to my success. Now, I’m eager to bring that experience into a full-time data role, help drive data-informed decision-making, and continue growing in a field I’m passionate about.
     </p>
-    <p style="font-size: 18px; line-height: 1.6; color: #444;">
+    <p>
       Feel free to explore my portfolio to see my recent projects, and connect with me on LinkedIn to learn more about my journey.
     </p>
   </section>
 
-  <section style="margin-top: 60px;">
-    <h2 style="text-align: center; font-size: 2em; margin-bottom: 30px;">Featured Projects</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-  
-      <!-- Project Card 1 -->
-      <div style="flex: 1 1 300px; max-width: 360px; border: 1px solid #ddd; border-radius: 12px; padding: 20px; box-shadow: 2px 2px 8px rgba(0,0,0,0.05);">
-        <h3 style="margin-top: 0;">MuseDash</h3>
-        <p style="color: #777; margin: 5px 0;"><strong>⚙️ Tech Stack:</strong> Python, PySpark, Pandas, Streamlit, AWS S3, Altair, Plotly</p>
-        <p>With 3 team members, built an interactive analytical dashboard uncovering user listening habits and artist popularity.</p>
-        <p>
-          <a href="https://github.com/ZCWDataSixZero/MuseDash" target="_blank" style="margin-right: 10px;">🔗 GitHub</a>
-        </p>
-      </div>
-  
-      <!-- Project Card 2 -->
-      <div style="flex: 1 1 300px; max-width: 360px; border: 1px solid #ddd; border-radius: 12px; padding: 20px; box-shadow: 2px 2px 8px rgba(0,0,0,0.05);">
-        <h3 style="margin-top: 0;">Retail Inventory Optimizer</h3>
-        <p style="color: #777; margin: 5px 0;"><strong>⚙️ Tech Stack:</strong> Python, Pandas, Seaborn, Matplotlib</p>
-        <p>I explore the relation between the infection rate of Covid 19 and various life factors.</p>
-        <p>
-          <a href="https://github.com/KunleAdeyanju/Covid19Analysis" target="_blank" style="margin-right: 10px;">🔗 GitHub</a>
-          <a href="https://nbviewer.org/github/KunleAdeyanju/Covid19Analysis/blob/main/covid19%20data%20analysis%20notebook.ipynb#" target="_blank">📓 Notebook</a>
-        </p>
-      </div>
-  
-      <!-- Project Card 3 -->
-      <div style="flex: 1 1 300px; max-width: 360px; border: 1px solid #ddd; border-radius: 12px; padding: 20px; box-shadow: 2px 2px 8px rgba(0,0,0,0.05);">
-        <h3 style="margin-top: 0;">ZIP Code Job Trends Dashboard</h3>
-        <p style="color: #777; margin: 5px 0;"><strong>⚙️ Tech Stack:</strong> Python, Altair, GitHub Pages</p>
-        <p>Interactive dashboard showing tech job trends by city and skill, built with open data and hosted on GitHub Pages.</p>
-        <p>
-          <a href="https://github.com/kunleadeyanju/job-trends" target="_blank" style="margin-right: 10px;">🔗 GitHub</a>
-          <a href="#" target="_blank">📊 Demo</a>
-        </p>
-      </div>
-  
+  <section class="projects" id="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <!-- Project cards here -->
     </div>
   </section>
 
-  <section style="margin-top: 60px;">
-    <h2 style="text-align: center;">Certificates</h2>
-  
-    <!-- Certificate Buttons -->
-    <div style="text-align: center; margin-top: 20px;">
-      <button id="bsButton" onclick="togglePDF('bsViewer', 'bsButton', '🎓', 'Preview Diploma', 'Hide Diploma')" class="cert-btn">
-        🎓 Preview Diploma
-      </button>
-    </div>
-    <div id="bsViewer" class="pdf-viewer">
-      <iframe src="./resources/diploma.pdf"></iframe>
-      <p><a href="./resources/diploma.pdf" target="_blank">Open Diploma in a new tab</a></p>
-    </div>
-  
-    <div style="text-align: center; margin-top: 40px;">
-      <button id="zipButton" onclick="togglePDF('zipViewer', 'zipButton', '🧾', 'Preview Certificate', 'Hide Certificate')" class="cert-btn">
-        🧾 Preview Certificate
-      </button>
-    </div>
-    <div id="zipViewer" class="pdf-viewer">
-      <iframe src="./resources/zipcode_certificate.pdf"></iframe>
-      <p><a href="./resources/zipcode_certificate.pdf" target="_blank">Open Certificate in a new tab</a></p>
-    </div>
-  
-    <div style="text-align: center; margin-top: 40px;">
-      <button id="gaButton" onclick="togglePDF('gaViewer', 'gaButton', '📈', 'Preview Certificate', 'Hide Certificate')" class="cert-btn">
-        📈 Preview Certificate
-      </button>
-    </div>
-    <div id="gaViewer" class="pdf-viewer">
-      <iframe src="./resources/google_analytics_certificate.pdf"></iframe>
-      <p><a href="./resources/google_analytics_certificate.pdf" target="_blank">Open Certificate in a new tab</a></p>
-    </div>
+  <section class="certificates" id="certificates">
+    <h2>Certificates</h2>
+    <!-- Certificate buttons and viewers here -->
   </section>
+
+  <footer class="footer" id="contact">
+    <p>&copy; 2025 Kunle Adeyanju &mdash; <a href="mailto:aoadeyanju22@gmail.com">aoadeyanju22@gmail.com</a></p>
+  </footer>
 
   <script>
+    document.getElementById('navToggle').addEventListener('click', () => {
+      document.getElementById('navMenu').classList.toggle('show');
+    });
+
     function togglePDF(viewerId, buttonId, icon, showText, hideText) {
       const viewer = document.getElementById(viewerId);
       const button = document.getElementById(buttonId);
       const isOpen = viewer.classList.contains('expanded');
-  
+
       viewer.classList.toggle('expanded');
       button.innerHTML = isOpen ? `${icon} ${showText}` : `${icon} ${hideText}`;
     }
   </script>
-  
-  
-
 </body>
 </html>
