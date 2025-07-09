@@ -2,144 +2,110 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kunle Adeyanju - Data Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar">
+  <header class="navbar">
     <div class="nav-brand">Kunle Adeyanju</div>
-    <button class="nav-toggle" id="navToggle">☰</button>
-    <ul class="nav-menu" id="navMenu">
-      <li><a href="#summary">Summary</a></li>
+    <button class="nav-toggle" onclick="document.querySelector('.nav-menu').classList.toggle('show')">☰</button>
+    <ul class="nav-menu">
+      <li><a href="#">Home</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#certificates">Certificates</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-  </nav>
-
-  <header class="page-header">
-    <h1>Kunle Adeyanju's Portfolio</h1>
   </header>
 
-  <section class="profile">
-    <img src="./resources/image.jpg" alt="Kunle's profile picture">
+  <h1>Kunle Adeyanju's Portfolio</h1>
+  <hr />
+
+  <div class="profile">
+    <img src="./resources/image.jpg" alt="Kunle's profile picture" />
     <div class="info">
       <p>
-        💼 <strong>Data Engineer</strong><br>
-        📧 <a href="mailto:aoadeyanju22@gmail.com">aoadeyanju22@gmail.com</a><br>
-        📄 <a href="https://drive.google.com/file/d/1IGgx5ltA9NuFSunKAdMIkwSBXyfyb7Y6/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a><br>
-        🔗 <a href="https://www.linkedin.com/in/kunleadeyanju" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
-        🧐 <a href="https://github.com/kunleadeyanju" target="_blank" rel="noopener noreferrer">GitHub</a><br>
-        📍 Located in Wilmington, DE
+        💼 <strong>Data Engineer</strong><br />
+        📧 <a href="mailto:aoadeyanju22@gmail.com">aoadeyanju22@gmail.com</a><br />
+        📄 <a href="https://drive.google.com/file/d/1IGgx5ltA9NuFSunKAdMIkwSBXyfyb7Y6/view?usp=sharing" target="_blank">Resume</a><br />
+        🔗 <a href="https://www.linkedin.com/in/kunleadeyanju" target="_blank">LinkedIn</a> |
+        🧠 <a href="https://github.com/kunleadeyanju" target="_blank">GitHub</a><br />
+        📍 <span>Located in Wilmington, DE</span>
       </p>
     </div>
-  </section>
+  </div>
 
-  <section class="summary" id="summary">
+  <section>
     <h2>Professional Summary</h2>
     <p>
-      I’m a graduate of the 
-      <a href="https://zipcodewilmington.com/" target="_blank" rel="noopener noreferrer">ZIP Code Wilmington</a> 
-      Data Engineering cohort — a nationally recognized, highly selective program that accepts fewer than 12% of applicants.
+      I’m a recent graduate of the <a href="https://zipcodewilmington.com/" target="_blank">ZIP Code Wilmington</a> Data Engineering cohort — a nationally recognized, highly selective program that accepts fewer than 12% of applicants.
     </p>
     <p>
-      I hold a degree in Applied Mathematics from West Chester University. Before entering the data space, I worked as a Warehouse Manager at DSW and most recently as an Education Co-Director at Mathnasium.
+      I hold a degree in Applied Mathematics from West Chester University of Pennsylvania. Before entering the data space, I worked as a Warehouse Manager at DSW and most recently as an Education Co-Director at Mathnasium.
     </p>
     <p>
       Even before formally entering the field, analyzing data and communicating insights to diverse stakeholders was central to my success. Now, I’m eager to bring that experience into a full-time data role, help drive data-informed decision-making, and continue growing in a field I’m passionate about.
     </p>
     <p>
-      I welcome you to my portfolio explore my projects, and connect with me on LinkedIn to learn more about my journey.
+      Feel free to explore my portfolio to see my recent projects, and connect with me on LinkedIn to learn more about my journey.
     </p>
-
-    <h2>GitHub Activity Chart </h2>
-      <p><img src="http://ghchart.rshah.org/KunleAdeyanju" alt="KunleAdeyanju Github chart" /></p>
-
   </section>
 
-  <section class="projects" id="projects">
+  <section class="github-chart">
+    <h2>GitHub Activity Chart</h2>
+    <img src="http://ghchart.rshah.org/KunleAdeyanju" alt="KunleAdeyanju Github chart" />
+  </section>
+
+  <section id="projects">
     <h2>Featured Projects</h2>
     <div class="project-grid">
-      <!-- Project cards here -->
-       <!-- Project Card 1 -->
-      <div style="flex: 1 1 300px; max-width: 360px; border: 1px solid #ddd; border-radius: 12px; padding: 20px; box-shadow: 2px 2px 8px rgba(0,0,0,0.05);">
-        <h3 style="margin-top: 0;">MuseDash</h3>
-        <p style="color: #777; margin: 5px 0;"><strong>⚙️ Tech Stack:</strong> Python, PySpark, Pandas, Streamlit, AWS S3, Altair, Plotly</p>
-        <p>With 3 team members, built an interactive analytical dashboard uncovering user listening habits and artist popularity.</p>
+      <div>
+        <h3>MuseDash</h3>
+        <p><strong>⚙️ Tech Stack:</strong> Python, PySpark, Pandas, Streamlit, AWS S3, Altair, Plotly</p>
+        <p>Interactive dashboard uncovering user listening habits and artist popularity.</p>
         <p>
-          <a href="https://github.com/ZCWDataSixZero/MuseDash" target="_blank" style="margin-right: 10px;">🔗 GitHub</a>
-        </p>
-        <p class="status in-progress">🚧 In Progress</p>
-      </div>
-  
-      <!-- Project Card 2 -->
-      <div style="flex: 1 1 300px; max-width: 360px; border: 1px solid #ddd; border-radius: 12px; padding: 20px; box-shadow: 2px 2px 8px rgba(0,0,0,0.05);">
-        <h3 style="margin-top: 0;">Covid 19 Analysis</h3>
-        <p style="color: #777; margin: 5px 0;"><strong>⚙️ Tech Stack:</strong> Python, Pandas, Seaborn, Matplotlib</p>
-        <p>I explore the relation between the infection rate of Covid 19 and various life factors.</p>
-        <p>
-          <a href="https://github.com/KunleAdeyanju/Covid19Analysis" target="_blank" style="margin-right: 10px;">🔗 GitHub</a>
-          <a href="https://nbviewer.org/github/KunleAdeyanju/Covid19Analysis/blob/main/covid19%20data%20analysis%20notebook.ipynb#" target="_blank">📓 Notebook</a>
+          <a href="https://github.com/ZCWDataSixZero/MuseDash" target="_blank">🔗 GitHub</a>
         </p>
         <p class="status completed">✅ Completed</p>
+      </div>
+      <div>
+        <h3>Retail Inventory Optimizer</h3>
+        <p><strong>⚙️ Tech Stack:</strong> Python, Pandas, Seaborn, Matplotlib</p>
+        <p>Explores relation between Covid-19 infection rates and various life factors.</p>
+        <p>
+          <a href="https://github.com/KunleAdeyanju/Covid19Analysis" target="_blank">🔗 GitHub</a>
+        </p>
+        <p class="status in-progress">🚧 In Progress</p>
       </div>
     </div>
   </section>
 
-  <section class="certificates" id="certificates">
-    <h2>Education & Certificates</h2>
-    <!-- Certificate buttons and viewers here -->
-    <div style="text-align: center; margin-top: 20px;">
-        <button id="bsButton" onclick="togglePDF('bsViewer', 'bsButton', '🎓', 'Preview Diploma', 'Hide Diploma')" class="cert-btn">
-          🎓 Preview Diploma
-        </button>
-      </div>
-      <div id="bsViewer" class="pdf-viewer">
-        <iframe src="./resources/diploma.pdf"></iframe>
-        <p><a href="./resources/diploma.pdf" target="_blank">Open Diploma in a new tab</a></p>
-      </div>
-    
-      <div style="text-align: center; margin-top: 40px;">
-        <button id="zipButton" onclick="togglePDF('zipViewer', 'zipButton', '🧾', 'Preview Certificate', 'Hide Certificate')" class="cert-btn">
-          🧾 Preview Certificate
-        </button>
-      </div>
-      <div id="zipViewer" class="pdf-viewer">
-        <iframe src="./resources/zipcode_certificate.pdf"></iframe>
-        <p><a href="./resources/zipcode_certificate.pdf" target="_blank">Open Certificate in a new tab</a></p>
-      </div>
-    
-      <div style="text-align: center; margin-top: 40px;">
-        <button id="gaButton" onclick="togglePDF('gaViewer', 'gaButton', '📈', 'Preview Certificate', 'Hide Certificate')" class="cert-btn">
-          📈 Preview Certificate
-        </button>
-      </div>
-      <div id="gaViewer" class="pdf-viewer">
-        <iframe src="./resources/google_analytics_certificate.pdf"></iframe>
-        <p><a href="./resources/google_analytics_certificate.pdf" target="_blank">Open Certificate in a new tab</a></p>
-      </div>
-    </section>
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <div style="text-align: center;">
+      <button class="cert-btn" onclick="togglePDF('bsViewer', 'bsButton', '🎓', 'Preview Diploma', 'Hide Diploma')" id="bsButton">🎓 Preview Diploma</button>
+    </div>
+    <div id="bsViewer" class="pdf-viewer">
+      <iframe src="./resources/diploma.pdf"></iframe>
+    </div>
   </section>
 
-  <footer class="footer" id="contact">
-    <p>&copy; 2025 Kunle Adeyanju &mdash; <a href="mailto:aoadeyanju22@gmail.com">aoadeyanju22@gmail.com</a></p>
+  <footer class="footer">
+    &copy; 2025 Kunle Adeyanju. All rights reserved.
   </footer>
 
   <script>
-    document.getElementById('navToggle').addEventListener('click', () => {
-      document.getElementById('navMenu').classList.toggle('show');
-    });
-
     function togglePDF(viewerId, buttonId, icon, showText, hideText) {
       const viewer = document.getElementById(viewerId);
       const button = document.getElementById(buttonId);
       const isOpen = viewer.classList.contains('expanded');
-
       viewer.classList.toggle('expanded');
       button.innerHTML = isOpen ? `${icon} ${showText}` : `${icon} ${hideText}`;
     }
+
+    window.onload = function() {
+      window.scrollTo(0, 0);
+    };
   </script>
 </body>
 </html>
